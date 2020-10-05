@@ -4,7 +4,7 @@ def contagem(file_name):
             leitor = arquivo.read()  
 
     except FileNotFoundError:
-        print("Este arquivo '{}'nao existe".format(file_name))
+        print("Arquivo '{}'nao existe".format(file_name))
     
     else:
         print("Este arquivo e '{}' e tem {} palavras".format(file_name, len(leitor.split())))
